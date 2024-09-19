@@ -1,0 +1,14 @@
+<div class="container">
+    <h2>Count : {{count}}</h2>
+    <div class="circle" (click)="onClick()" >
+        <p>TAP</p>
+    </div>
+    <!-- <button class="" (click)="onClick()" [disabled]="count === 10">Click</button> -->
+    <button (click)="onReset()">Reset</button>
+    <div class="checkbox">
+        <input type="checkbox" (click)="onCheck()">
+        <label>Click here to Remind at count 100</label>
+    </div>
+
+
+</div>
