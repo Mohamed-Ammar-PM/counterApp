@@ -46,3 +46,31 @@
     margin-right: 10px;
     accent-color: #900c3f;
 }
+
+.number {
+    margin-top: 10px;
+}
+
+.number input{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.number input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button
+{
+
+  -webkit-appearance: none;
+
+  margin: 0;
+
+}
+
+/* Firefox */
+
+.number input[type=number]
+{
+
+  -moz-appearance: textfield;
+
+}
