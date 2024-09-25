@@ -1,0 +1,80 @@
+/* .first h3{
+    text-align: center;
+    margin-top: 20px;
+}
+.container h6{
+    margin-top: 30px;
+}
+
+.first h4{
+    text-align: center;
+    margin-top: 20px;
+}
+.first h5{
+    text-align: center;
+    margin-top: 20px;
+}
+.container h2{
+    margin-top: 20px;
+} */
+
+/* .accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: block;
+    overflow: hidden;
+  } */
+
+  /* .container{
+    margin: 20px;
+}
+.container h2{
+    margin: 20px 0px;
+} */
+
+.container h3{
+    color: brown;
+}
+
+.container h5{
+    padding: 10px 0px;
+}
+
+.container p{
+    text-align: center;
+    margin: 10px 0px;
+}
+.container .section-container{
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.container .section-block{
+    border-top: 1px solid black;
+    padding: 25px 20px;
+}
+.container .section-container:last-child{
+    border-bottom: 1px solid black;
+}
+ 
+.container .section-container .section{
+    padding: 20px 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}

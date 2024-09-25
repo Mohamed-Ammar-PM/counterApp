@@ -1,0 +1,18 @@
+<div class="container">
+    <h2>Count : {{count}}</h2>
+    <div class="circle" (click)="onClick()" >
+        <p>TAP</p>
+    </div>
+    <!-- <button class="" (click)="onClick()" [disabled]="count === 10">Click</button> -->
+    <button (click)="onReset()">Reset</button>
+    <div class="number">
+        <input  type="number" [(ngModel)]="stopVal">
+        <label>Set your count</label>
+    </div>
+    <div class="checkbox">
+        <input [disabled]="stopVal == 0 || stopVal == null " type="checkbox" (click)="onCheck() ">
+        <label>Click here to Remind at count {{stopVal}}</label>
+    </div>
+
+
+</div>

@@ -1,0 +1,76 @@
+.container h2{
+    margin-bottom: 30px;
+
+}
+.container h4{
+    text-wrap:balance;
+    margin-top: 20px;
+}
+.container button{
+    margin-top: 40px;
+    width: 150px;
+    padding: 10px 0px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    width: 300px;
+}
+.container .circle{
+    height: 150px;
+    width: 150px;
+    border: 2px solid #900c3f;
+    border-radius: 100%;
+    background-color: #900c3f;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-size:40px;
+    font-weight:bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.checkbox {
+    padding: 20px;
+}
+
+.checkbox input {
+    margin-right: 10px;
+    accent-color: #900c3f;
+}
+
+.number {
+    margin-top: 10px;
+}
+
+.number input{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.number input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button
+{
+
+  -webkit-appearance: none;
+
+  margin: 0;
+
+}
+
+/* Firefox */
+
+.number input[type=number]
+{
+
+  -moz-appearance: textfield;
+
+}
